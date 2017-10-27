@@ -3,7 +3,8 @@ body{
     overflow-x: hidden
 }
 #body-header {
-	position: block;
+	position: fixed;
+	width: 100%;
 
 
 }
@@ -44,10 +45,59 @@ line-height: 60px;
 #body-header{
 	background-color: rgba(86, 83, 85, 0.48);
 }
-
-#img{
-	
-    height: 500px;
-    width: 100%;
+.extra{
+	position: relative;
 }
 
+#img{
+	//position: absolute;
+    height: 400px;
+    width: 100%;
+
+}
+#img-text{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 30vh;
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: bold;
+
+}
+
+.event{
+	padding-top: 150px;
+    padding-bottom: 100px;
+    background: #FFF;
+}
+
+section.event h6{
+	width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #554;
+    padding-left: 30px;
+    border-left: 5px solid #e74c3c;
+}
+
+section.event p {
+    font-family: "Karla", sans-serif;
+    font-size: .9em;
+    text-align: justify;
+    line-height: 1.5;
+    color: #554;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.event-pics-box{
+	    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    border: 2px solid black;
+}
