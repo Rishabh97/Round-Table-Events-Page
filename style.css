@@ -117,3 +117,56 @@ section.event p {
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;*/
 }
+footer{
+	background-color: rgba(128, 128, 128, 0.19);
+	height: 300px;
+}
+.wrapper-footer{
+	width: 70%;
+	margin: auto;
+	 
+	height: 100%;
+}
+#info{
+	width: 49%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#connect-us img{
+    display: inline-block;
+	margin-right: 20px;
+}
+
+.end-tag{
+
+    position: relative;
+    top: 35px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-size: .7em;
+    color: rgba(0, 0, 0, 0.6);
+
+
+}
+/*footer .wrapper-footer #info h3 {
+    width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+footer .wrapper-footer #info p{
+    width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.8);
+}*/
