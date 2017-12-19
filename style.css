@@ -1,13 +1,16 @@
 body{
-	max-width: 100%;
-    overflow-x: hidden
+	margin: 0px 0px;
 }
 #body-header {
 	position: fixed;
 	width: 100%;
-
+    background-color: rgba(86, 83, 85, 0.48);
 
 }
+
+
+
+
 ul{
 	list-style: none;
 	margin: 0;
@@ -17,6 +20,8 @@ ul{
 	flex-direction: row;
 	justify-content: center;
 }
+
+
 
 a:link, a:visited{
 	display: block;
@@ -43,7 +48,34 @@ line-height: 60px;
 }
 
 #body-header{
-	background-color: rgba(86, 83, 85, 0.48);
+	background-color: black;
+    z-index: 5;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+
+    width: 10%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.active{
+    background-color: grey
+   /* color: black*/;
+    font-size: 18px;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-transition-animation-duration: 2s;
+    
+
 }
 .extra{
 	position: relative;
@@ -92,6 +124,8 @@ line-height: 60px;
     background: #FFF;
 }
 
+
+
 section.event h6{
 	width: 70%;
     margin: auto;
@@ -103,6 +137,7 @@ section.event h6{
     border-left: 5px solid #e74c3c;
 }
 
+
 section.event p {
     font-family: "Karla", sans-serif;
     font-size: .9em;
@@ -113,6 +148,10 @@ section.event p {
     margin: auto;
     margin-top: 30px;
 }
+
+
+
+
 
 .event-pics-box{
 	    width: 70%;
@@ -175,16 +214,11 @@ footer{
 	margin-right: 20px;
 }
 
-.end-tag{
+#end-tag{
 
-    position: relative;
-    top: 35px;
-    padding-bottom: 20px
-    width: 80%;
-    margin: auto;
     text-align: center;
     font-family: "Karla", sans-serif;
-    font-size: .8em;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.6);
 
 
