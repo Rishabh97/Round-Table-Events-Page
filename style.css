@@ -67,6 +67,16 @@ line-height: 60px;
 
 }
 
+
+.scroll{
+    
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+
+}
+
+
 .active{
     background-color: grey
    /* color: black*/;
@@ -96,6 +106,41 @@ line-height: 60px;
 	font-weight: bold;
 
 }
+
+
+@media screen and (max-width: 868px){
+
+     #img-text{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 20vh;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+
+    }
+
+    
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    #img-text{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30vh;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+
+    }
+
+}
+
+
+
 
 #img-font-awesome-2{
     position: absolute;
@@ -247,3 +292,24 @@ footer .wrapper-footer #info #connect-us{
     padding-left: 60px;
     padding-top: 20px;
 }
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #a6a6a6;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+
+}
+
+
