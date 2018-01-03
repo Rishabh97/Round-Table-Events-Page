@@ -27,7 +27,7 @@ a:link, a:visited{
 	display: block;
 	color: #ffffff;
 	background-color:98bf21;
-	width: 120px;
+	width: 140px;
 	text-align: center;
 	padding: 4px;
 	text-transform: uppercase;
@@ -73,6 +73,7 @@ line-height: 60px;
     font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
 
+    font-size: 1.1em;
 
 }
 
